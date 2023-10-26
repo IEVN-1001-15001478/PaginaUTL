@@ -1,0 +1,64 @@
+.d-item {
+    height: 500px;
+}
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    
+}
+.menu {
+    background-color: aqua;
+}
+.but{
+    background-image: -o-linear-gradient(to left, #00B394 50%, #003082 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+    transition: background-position .5s ease;
+}
+.but:hover{
+    background-position: right;
+}
+.cinta2 {
+    /* background-color: #00B394; */
+    background-image: linear-gradient(to right, #00B394 50%, transparent 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: .5;
+    width: 150%;
+    margin-left: -25%;
+    padding: 0%;
+    height: 100px;
+    margin: 0 -25%;
+    color: white; 
+    cursor: pointer;
+    transition: background-position .5s ease;
+}
+.cinta2:hover{
+    background-position: left;
+    color: black;
+}
+.boton {
+    width: 50px;
+    left: 50px;
+}
+.cartas{
+    margin-top: -48px;
+}
+.cajita{
+    width: 20%;
+    height: 20%;
+}
+.verde{
+    background-color: #00B394;
+    height: 250px;
+    text-align: center;
+}
+.azul{
+    background-color: #003082;
+    height: 250px;
+    text-align: center;
+}
